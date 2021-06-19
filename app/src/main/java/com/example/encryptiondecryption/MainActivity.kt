@@ -130,7 +130,7 @@ class MainActivity : AppCompatActivity()
             Log.d("exception", "keyInRange: "+e.message)
             Toast.makeText(this,"Using default shift key '3' for operation",Toast.LENGTH_SHORT).show()
         }
-        return 3   // default shift key is 3
+        return 4   // default shift key is 3
     } // keyInRange closed
 
 
